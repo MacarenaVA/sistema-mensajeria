@@ -1,0 +1,18 @@
+*
+
+:root {
+    white: #FFF;
+    platinium: #E8EBE4;
+    gray: #BEC1BB;
+    blue-bell: #A491D2;
+    soap: #CDC3E6;
+    pale-lavander: #D4DCFF;
+    dark-jungle: #1B1F21;
+    outer-sapce: #444749;
+    old-silver: #828485;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
