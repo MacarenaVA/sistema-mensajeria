@@ -1,5 +1,3 @@
-*
-
 :root {
     white: #FFF;
     platinium: #E8EBE4;
@@ -11,8 +9,18 @@
     outer-sapce: #444749;
     old-silver: #828485;
 }
-jajajaj
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
