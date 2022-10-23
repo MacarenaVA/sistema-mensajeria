@@ -1,26 +1,120 @@
 :root {
-    white: #FFF;
-    platinium: #E8EBE4;
-    gray: #BEC1BB;
-    blue-bell: #A491D2;
-    soap: #CDC3E6;
-    pale-lavander: #D4DCFF;
-    dark-jungle: #1B1F21;
-    outer-sapce: #444749;
-    old-silver: #828485;
+    --white: #FFF;
+    --platinium: #E8EBE4;
+    --gray: #BEC1BB;
+    --blue-bell: #A491D2;
+    --soap: #CDC3E6;
+    --pale-lavander: #D4DCFF;
+    --dark-jungle: #1B1F21;
+    --outer-sapce: #444749;
+    --old-silver: #828485;
 }
 
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
+
 .container {
     display: flex;
-    justify-content: flex-start;
+}
+
+.seccion-de-contactos {
+    background-color: var(white);
+    width: 24rem;
+    border-right: 1px solid var(--gray);
+    display: flex;
     flex-direction: column;
+}
+
+.estado-del-usuario{
+    display: flex;
+    border-bottom: 1px solid var(--gray);
+    padding: 10px 25px;
+    justify-content: space-between;
+}
+
+.estado-del-usuario img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.info-del-usuario{
+    display: flex;
+    flex-direction: row;
+}
+
+.iconos-chat i{
+    margin: 5px;
+    color: var(--old-silver);
+}
+
+.nombre-del-usuario {
+    font-size: 16px;
+    color: var(--dark-jungle);
+}
+
+.usuario-activo {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.boton {
+    display: flex;
+    border-bottom: 1px solid var(--gray);
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton button{
+    width: 13rem;
+    background-color: var(--blue-bell);
+    color: var(--white);
+    border: none;
+    height: 50px;
+}
+
+.contacto {
+    display: flex;
+    border-bottom: 1px solid var(--gray);
+    padding: 10px 25px;
+    flex-direction: row;
+}
+
+.contacto img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.texto-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nombre {
+    font-size: 16px;
+    color: var(--dark-jungle);
+    font-weight: bolder;
+}
+
+.mensaje {
+    font-size: 16px;
+    color: var(--outer-sapce);
+    text-overflow: unset;
+}
+
+.seccion-principal{
+    display: flex;
+    justify-content: center;
+    background-color: var(--platinium);
+    width: 100%;
 }
